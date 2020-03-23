@@ -5,18 +5,20 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	"fmt"
-	"github.com/elazarl/goproxy"
-	"github.com/pubgo/antproxy/cmds/cnst"
-	"github.com/pubgo/g/xerror"
-	"github.com/pubgo/xcmd/xcmd"
-	"github.com/spf13/viper"
 	"io/ioutil"
 	"net/http"
 	url2 "net/url"
 	"path/filepath"
 	"strings"
+
+	"github.com/elazarl/goproxy"
+	"github.com/pubgo/antproxy/cmds/cnst"
+	"github.com/pubgo/g/xerror"
+	"github.com/pubgo/xcmd/xcmd"
+	"github.com/spf13/viper"
 )
 
+// Init init cmd
 func Init() *xcmd.Command {
 	var cert = cnst.RootName
 	var key = cnst.RootKeyName

@@ -8,8 +8,5 @@ require (
 	github.com/pubgo/xcmd v0.0.4
 	github.com/spf13/viper v1.4.0
 	github.com/zserge/webview v0.0.0-20200108134508-23539831b470
-	golang.org/x/net v0.0.0-20191209160850-c0dbc17a3553 // indirect
-	honnef.co/go/tools v0.0.0-20190530170028-a1efa522b896 // indirect
 	howett.net/plist v0.0.0-20200225050739-77e249a2e2ba
-	software.sslmate.com/src/go-pkcs12 v0.0.0-20190322163127-6e380ad96778 // indirect
 )

@@ -8,6 +8,7 @@ import (
 	"github.com/pubgo/xcmd/xcmd"
 )
 
+// Service service name
 const Service = "antproxy"
 
 // Execute exec

@@ -2,12 +2,14 @@ package wv
 
 import (
 	"fmt"
+	"net/url"
+
 	"github.com/pubgo/g/xerror"
 	"github.com/pubgo/xcmd/xcmd"
 	"github.com/zserge/webview"
-	"net/url"
 )
 
+// Init init cmd
 func Init() *xcmd.Command {
 	return &xcmd.Command{
 		Use:   "wv",
